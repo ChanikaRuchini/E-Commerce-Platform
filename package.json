@@ -1,0 +1,26 @@
+{
+  "name": "e-platform",
+  "version": "1.0.0",
+  "description": "Single vendor E-commerce platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malintha1996/E-commerce-platform.git"
+  },
+  "keywords": [
+    "vendor",
+    "e-commerce"
+  ],
+  "author": "Malintha1996",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malintha1996/E-commerce-platform/issues"
+  },
+  "homepage": "https://github.com/Malintha1996/E-commerce-platform#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
