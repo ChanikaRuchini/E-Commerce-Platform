@@ -1,5 +1,5 @@
 const express=require("express");
-var appController=require('./conrollers/appController');
+var appController=require('./controllers/appController');
 var app=express();
 
 //set up template engine
@@ -11,7 +11,7 @@ app.set('view engine','ejs');
 app.use(express.static('./public'));
 
 //fire controllers
-appController(app);git
+appController(app);
 
 //listen to port
 
